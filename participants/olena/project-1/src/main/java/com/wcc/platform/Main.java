@@ -4,18 +4,19 @@ package com.wcc.platform;
 import com.wcc.platform.model.Member;
 import com.wcc.platform.model.MemberRepository;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;
 
 
-public class Main {
+public class Main  {
 //CLI add User
     private static final Scanner scanner = new Scanner(System.in);
     private static final MemberRepository repository = new MemberRepository();
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 
         System.out.println("Enter name: ");
@@ -35,6 +36,7 @@ public class Main {
                 LocalDate.now()
         );
         repository.add(member);
+        repository.saveToCsv("members.csv");
         System.out.println("Member added.");
         viewMembers();
     }
