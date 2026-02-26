@@ -33,6 +33,10 @@ public class Main {
         );
         repository.add(member);
         System.out.println("Member added.");
+        viewMembers();
+    }
+    public static void viewMembers() {
+        repository.findAll().forEach(member -> System.out.println(member));
     }
 }
 
