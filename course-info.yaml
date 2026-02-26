@@ -26,4 +26,5 @@ additional_files:
   - name: docs/guides/numeric-literals-simplified.md
   - name: participants/olena/project-1/src/main/java/com/wcc/platform/model/Member.java
   - name: participants/olena/project-1/src/main/java/com/wcc/platform/model/MemberRepository.java
+  - name: src/main/java/com/wcc/bootcamp/java/Main.java
 yaml_version: 5
