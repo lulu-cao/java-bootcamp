@@ -36,7 +36,7 @@ public class Main {
         viewMembers();
     }
     public static void viewMembers() {
-        repository.findAll().forEach(member -> System.out.println(member));
+        repository.findAll().forEach(System.out::println);
     }
 }
 
