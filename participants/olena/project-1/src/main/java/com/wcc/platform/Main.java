@@ -17,6 +17,7 @@ public class Main  {
 
 
     public static void main(String[] args) throws IOException {
+        repository.loadFromCsv("members.csv");
 
 
         System.out.println("Enter name: ");

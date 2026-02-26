@@ -1,10 +1,9 @@
 package com.wcc.platform.model;
 
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.io.IOException;
 
 //repository is responsible for saving, retrieving data
 public class MemberRepository {
@@ -41,6 +40,37 @@ public class MemberRepository {
             ));
         }
         writer.close();
+    }
+
+    public void loadFromCsv(String filePath) throws IOException {
+        File file = new File(filePath);
+        if(!file.exists()){
+            return;
+        }
+
+        BufferedReader reader = new BufferedReader(new FileReader(filePath));
+
+        String line;
+
+        reader.readLine();
+
+        while ((line = reader.readLine()) != null) {
+            String[] parts = line.split(",");
+            String name = parts[0].trim();
+            String email = parts[1].trim();
+            String location = parts[2].trim();
+            LocalDate joinDate = LocalDate.parse(parts[3].trim());
+
+            Member member = new Member(
+                    name,
+                    email,
+                    location,
+                    List.of(),
+                    joinDate
+            );
+            members.add(member);
+        }
+        reader.close();
     }
 }
 
