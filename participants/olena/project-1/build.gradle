@@ -12,4 +12,7 @@ repositories {
 application {
     mainClass = 'com.wcc.platform.Main'
 }
+tasks.named('run') {
+    standardInput = System.in
+}
 

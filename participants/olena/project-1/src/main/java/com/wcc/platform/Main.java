@@ -3,6 +3,7 @@ package com.wcc.platform;
 
 import com.wcc.platform.model.Member;
 import com.wcc.platform.model.MemberRepository;
+import com.wcc.platform.model.CsvMemberRepository;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -11,9 +12,8 @@ import java.util.Scanner;
 
 
 public class Main  {
-//CLI add User
     private static final Scanner scanner = new Scanner(System.in);
-    private static final MemberRepository repository = new MemberRepository();
+    private static final MemberRepository repository = new CsvMemberRepository();
 
 
     public static void main(String[] args) throws IOException {

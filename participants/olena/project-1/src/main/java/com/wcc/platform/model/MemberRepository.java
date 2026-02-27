@@ -1,76 +1,15 @@
 package com.wcc.platform.model;
 
-import java.io.*;
-import java.time.LocalDate;
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.List;
 
-//repository is responsible for saving, retrieving data
-public class MemberRepository {
+public interface MemberRepository {
 
-    //create object
-    private final List<Member> members = new ArrayList<>();
+    void add(Member member);
 
-    public void add(Member member) {
-        members.add(member);
-    }
+    List<Member> findAll();
 
-    public List<Member> findAll() {
-        return members;
-    }
+    void saveToCsv(String filePath) throws IOException;
 
-    public void saveToCsv(String filePath) throws IOException {
-
-        File file = new File(filePath);
-        boolean fileExists = file.exists();
-        boolean fileEmpty = !fileExists || file.length() == 0;
-
-        FileWriter writer = new FileWriter(file);
-
-        if(fileEmpty) {
-            writer.write(String.format("name,email,location,joinDate%n"));
-        }
-
-        for (Member member : members) {
-            writer.write(String.format("%s,%s,%s,%s%n",
-                    member.getName(),
-                    member.getEmail(),
-                    member.getLocation(),
-                    member.getJoinDate()
-            ));
-        }
-        writer.close();
-    }
-
-    public void loadFromCsv(String filePath) throws IOException {
-        File file = new File(filePath);
-        if(!file.exists()){
-            return;
-        }
-
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
-
-        String line;
-
-        reader.readLine();
-
-        while ((line = reader.readLine()) != null) {
-            String[] parts = line.split(",");
-            String name = parts[0].trim();
-            String email = parts[1].trim();
-            String location = parts[2].trim();
-            LocalDate joinDate = LocalDate.parse(parts[3].trim());
-
-            Member member = new Member(
-                    name,
-                    email,
-                    location,
-                    List.of(),
-                    joinDate
-            );
-            members.add(member);
-        }
-        reader.close();
-    }
+    void loadFromCsv(String filePath) throws IOException;
 }
-
