@@ -4,7 +4,7 @@ package com.wcc.platform;
 import com.wcc.platform.model.Member;
 import com.wcc.platform.model.MemberRepository;
 import com.wcc.platform.model.CsvMemberRepository;
-import com.wcc.platform.model.EmailValidator;
+import com.wcc.platform.validation.EmailValidator;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -24,16 +24,7 @@ public class Main  {
         System.out.println("Enter name: ");
         String name = scanner.nextLine();
 
-        String email;
-        while(true) {
-            System.out.println("Enter email: ");
-            email = scanner.nextLine();
-
-            if(EmailValidator.isValid(email)) {
-                break;
-            }
-            System.out.println("Invalid email format. Please enter a valid email.");
-        }
+        String email = EmailValidator.promptValidEmail(scanner);
 
         System.out.println("Enter location: ");
         String location = scanner.nextLine();
