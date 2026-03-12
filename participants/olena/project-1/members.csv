@@ -1,2 +1,5 @@
-Elena,elena@gmail.com,London,2026-03-11
-Sarah,sara@gmail.com,London,2026-03-11
+name,email,location,skills,joinDate
+Tom,tom@gmail.com,UK,reading,2026-03-12
+Ned,ned@gmail.com,UK,writing,2026-03-12
+Sam,sam@gmail.com,UK,puzzles,2026-03-12
+Tat,tat@gmail.com,France,n/a,2026-03-12
