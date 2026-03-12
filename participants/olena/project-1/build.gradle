@@ -15,4 +15,23 @@ application {
 tasks.named('run') {
     standardInput = System.in
 }
+dependencies {
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+}
+
+test {
+    useJUnitPlatform()
+
+    outputs.upToDateWhen { false }
+
+    testLogging {
+        events "passed", "failed", "skipped"
+        showStandardStreams = true
+        showExceptions = true
+    }
+}
 
