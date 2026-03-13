@@ -26,23 +26,15 @@ Validate your assumptions by reading nearby code in the repository before commen
 Step 3 — Stack-specific checks
 Apply only the checks relevant to what was actually changed.
 
-Java / Spring Boot
-Java 21 idioms: records, pattern matching, sealed classes, text blocks
-Spring Boot conventions: correct use of @Service, @Repository, @Transactional
-Error handling: proper exception types, global handler, no swallowed exceptions
+Java (pure CLI, no framework)
+Java 17 idioms: var, switch expressions, text blocks
+Error handling: proper exception types, no swallowed exceptions
 Naming: consistent with existing codebase style
-No business logic in controllers; no data access in services directly
-Lombok usage aligns with project patterns
-Frontend (React / TypeScript)
-Component boundaries and single responsibility
-Typing quality — avoid any, prefer explicit interfaces
-State and effect hygiene — no unnecessary re-renders, correct dependency arrays
-Project style conventions
+No Spring, no ORM, no database, no API — pure Java CLI application
 Tests
 New logic paths have corresponding unit tests
-Integration tests exist for database/API changes
-Test names follow Given-When-Then @DisplayName format (Java) or descriptive it()/test() (JS)
-Mocks used only where appropriate; integration tests hit real infrastructure
+Test names follow shouldDoSomethingWhenCondition camelCase format
+Mocks used only where appropriate
 Step 4 — Output format
 Structure the review output as follows:
 

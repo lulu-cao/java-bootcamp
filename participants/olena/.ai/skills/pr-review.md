@@ -25,18 +25,14 @@ Step 3 — Stack-specific checks
 Apply only the checks relevant to what the PR actually changed.
 
 Java (pure CLI, no framework)
-Java 17 idioms: var, switch expressions, text blocks   
+Java 17 idioms: var, switch expressions, text blocks
 Error handling: proper exception types, no swallowed exceptions
 Naming: consistent with existing codebase style
-No business logic in controllers; no data access in services directly
-Component boundaries and single responsibility
-Typing quality — avoid any, prefer explicit interfaces
-State and effect hygiene — no unnecessary re-renders, correct dependency arrays
-Project style conventions
+No Spring, no ORM, no database, no API — pure Java CLI application
 Tests
 New logic paths have corresponding unit tests
-Test names follow Given-When-Then @DisplayName format (Java) or descriptive it()/test() (JS)
-Mocks used only where appropriate; integration tests hit real infrastructure
+Test names follow shouldDoSomethingWhenCondition camelCase format
+Mocks used only where appropriate
 Step 4 — Post inline comments
 Use gh api to post comments anchored to exact changed lines:
 
