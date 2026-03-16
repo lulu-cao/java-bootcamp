@@ -26,4 +26,5 @@ additional_files:
   - name: participants/genevieve/project/README.md
   - name: participants/genevieve/project/build.gradle
   - name: participants/genevieve/project/src/SimpleBot.java
+  - name: docs/guides/numeric-literals-simplified.md
 yaml_version: 5
