@@ -20,4 +20,4 @@ List the main features you've implemented:
 
 - IntelliJ - [Create your first Java application](
   https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-- IntelliJ - 
+- IntelliJ - [Getting Started with Gradle](https://www.jetbrains.com/help/idea/getting-started-with-gradle.html)
