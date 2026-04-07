@@ -16,8 +16,13 @@ List the main features you've implemented:
 
 - Provide clear instructions on how to set up and run your project.
 
+```
+./gradlew build
+```
+
 ### 5. Resources
 
 - IntelliJ - [Create your first Java application](
   https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
 - IntelliJ - [Getting Started with Gradle](https://www.jetbrains.com/help/idea/getting-started-with-gradle.html)
+- Gradle - [Initializing the Project](https://docs.gradle.org/current/userguide/part1_gradle_init.html)
