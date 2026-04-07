@@ -2,23 +2,30 @@
 
 ### 1. Description
 
-A brief description of what your project does and which WCC feature it addresses.
+Create a tool that generates random coding challenges for WCC members to practice.
+Skills: Core Java, Random class, Collections, String processing.
 
 ### 2. Features
 
-List the main features you've implemented:
+- Store a collection of coding challenges with difficulty levels
+- Randomly select challenges
+- Display challenge descriptions and hints
 
 ### 3. Technologies
 
 - Java 25
+- Gradle
+- Jackson
 
 ### 4. How to Run
 
-- Provide clear instructions on how to set up and run your project.
+To build the project,
 
 ```
 ./gradlew build
 ```
+
+To run the project, click on the Run button on IntelliJ IDE.
 
 ### 5. Resources
 

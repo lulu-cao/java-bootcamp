@@ -1,0 +1,602 @@
+[
+  {
+    "title": "Two Sum",
+    "description": "Find two numbers that add up to a target.",
+    "difficulty": "Easy",
+    "hint": "Use a hashmap to store complements."
+  },
+  {
+    "title": "Reverse String",
+    "description": "Reverse a string in-place.",
+    "difficulty": "Easy",
+    "hint": "Use two pointers from both ends."
+  },
+  {
+    "title": "Palindrome Check",
+    "description": "Check if a string is a palindrome.",
+    "difficulty": "Easy",
+    "hint": "Compare characters from both ends."
+  },
+  {
+    "title": "FizzBuzz",
+    "description": "Print numbers with Fizz/Buzz rules.",
+    "difficulty": "Easy",
+    "hint": "Use modulo operator."
+  },
+  {
+    "title": "Find Max in Array",
+    "description": "Return the largest number in an array.",
+    "difficulty": "Easy",
+    "hint": "Track max while iterating."
+  },
+  {
+    "title": "Count Vowels",
+    "description": "Count vowels in a string.",
+    "difficulty": "Easy",
+    "hint": "Check each character against vowel set."
+  },
+  {
+    "title": "Remove Duplicates",
+    "description": "Remove duplicates from array.",
+    "difficulty": "Easy",
+    "hint": "Use a Set."
+  },
+  {
+    "title": "Merge Two Arrays",
+    "description": "Merge two arrays into one.",
+    "difficulty": "Easy",
+    "hint": "Use a new array or list."
+  },
+  {
+    "title": "Valid Parentheses",
+    "description": "Check if parentheses are valid.",
+    "difficulty": "Easy",
+    "hint": "Use a stack."
+  },
+  {
+    "title": "Binary Search",
+    "description": "Search element in sorted array.",
+    "difficulty": "Easy",
+    "hint": "Divide and conquer."
+  },
+  {
+    "title": "First Unique Character",
+    "description": "Find first non-repeating character.",
+    "difficulty": "Easy",
+    "hint": "Use frequency map."
+  },
+  {
+    "title": "Missing Number",
+    "description": "Find missing number in sequence.",
+    "difficulty": "Easy",
+    "hint": "Use sum formula or XOR."
+  },
+  {
+    "title": "Climbing Stairs",
+    "description": "Count ways to climb stairs.",
+    "difficulty": "Easy",
+    "hint": "Fibonacci pattern."
+  },
+  {
+    "title": "Intersection of Arrays",
+    "description": "Find common elements.",
+    "difficulty": "Easy",
+    "hint": "Use sets."
+  },
+  {
+    "title": "Move Zeroes",
+    "description": "Move zeroes to end.",
+    "difficulty": "Easy",
+    "hint": "Use two pointers."
+  },
+  {
+    "title": "Rotate Array",
+    "description": "Rotate array by k steps.",
+    "difficulty": "Easy",
+    "hint": "Reverse parts of array."
+  },
+  {
+    "title": "Sum of Digits",
+    "description": "Sum digits of a number.",
+    "difficulty": "Easy",
+    "hint": "Use modulo and division."
+  },
+  {
+    "title": "Reverse Integer",
+    "description": "Reverse digits of integer.",
+    "difficulty": "Easy",
+    "hint": "Watch overflow."
+  },
+  {
+    "title": "Majority Element",
+    "description": "Find element appearing > n/2 times.",
+    "difficulty": "Easy",
+    "hint": "Boyer-Moore algorithm."
+  },
+  {
+    "title": "Contains Duplicate",
+    "description": "Check duplicates exist.",
+    "difficulty": "Easy",
+    "hint": "Use Set."
+  },
+  {
+    "title": "Single Number",
+    "description": "Find unique element.",
+    "difficulty": "Easy",
+    "hint": "Use XOR."
+  },
+  {
+    "title": "Power of Two",
+    "description": "Check if number is power of two.",
+    "difficulty": "Easy",
+    "hint": "Bit manipulation."
+  },
+  {
+    "title": "Excel Column Number",
+    "description": "Convert column title to number.",
+    "difficulty": "Easy",
+    "hint": "Base-26 conversion."
+  },
+  {
+    "title": "Roman to Integer",
+    "description": "Convert Roman numeral.",
+    "difficulty": "Easy",
+    "hint": "Map values."
+  },
+  {
+    "title": "Longest Common Prefix",
+    "description": "Find prefix among strings.",
+    "difficulty": "Easy",
+    "hint": "Compare characters."
+  },
+  {
+    "title": "Shuffle Array",
+    "description": "Shuffle array randomly.",
+    "difficulty": "Easy",
+    "hint": "Use Fisher-Yates."
+  },
+  {
+    "title": "Min Stack",
+    "description": "Stack supporting min operation.",
+    "difficulty": "Easy",
+    "hint": "Track min separately."
+  },
+  {
+    "title": "Valid Anagram",
+    "description": "Check if strings are anagrams.",
+    "difficulty": "Easy",
+    "hint": "Sort or count chars."
+  },
+  {
+    "title": "Counting Bits",
+    "description": "Count bits for numbers.",
+    "difficulty": "Easy",
+    "hint": "DP relation."
+  },
+  {
+    "title": "Happy Number",
+    "description": "Detect happy number.",
+    "difficulty": "Easy",
+    "hint": "Use cycle detection."
+  },
+  {
+    "title": "3Sum",
+    "description": "Find triplets summing to zero.",
+    "difficulty": "Medium",
+    "hint": "Sort + two pointers."
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "description": "Find longest substring without duplicates.",
+    "difficulty": "Medium",
+    "hint": "Sliding window."
+  },
+  {
+    "title": "Container With Most Water",
+    "description": "Max area between lines.",
+    "difficulty": "Medium",
+    "hint": "Two pointers."
+  },
+  {
+    "title": "Group Anagrams",
+    "description": "Group anagrams together.",
+    "difficulty": "Medium",
+    "hint": "Use sorted string as key."
+  },
+  {
+    "title": "Product of Array Except Self",
+    "description": "Compute without division.",
+    "difficulty": "Medium",
+    "hint": "Prefix/suffix arrays."
+  },
+  {
+    "title": "Set Matrix Zeroes",
+    "description": "Zero rows/columns.",
+    "difficulty": "Medium",
+    "hint": "Use markers."
+  },
+  {
+    "title": "Spiral Matrix",
+    "description": "Traverse matrix in spiral.",
+    "difficulty": "Medium",
+    "hint": "Track boundaries."
+  },
+  {
+    "title": "Jump Game",
+    "description": "Check reachability.",
+    "difficulty": "Medium",
+    "hint": "Greedy approach."
+  },
+  {
+    "title": "Merge Intervals",
+    "description": "Merge overlapping intervals.",
+    "difficulty": "Medium",
+    "hint": "Sort intervals."
+  },
+  {
+    "title": "Insert Interval",
+    "description": "Insert interval into list.",
+    "difficulty": "Medium",
+    "hint": "Merge overlaps."
+  },
+  {
+    "title": "Rotate Image",
+    "description": "Rotate matrix 90 degrees.",
+    "difficulty": "Medium",
+    "hint": "Transpose + reverse."
+  },
+  {
+    "title": "Word Search",
+    "description": "Find word in grid.",
+    "difficulty": "Medium",
+    "hint": "DFS/backtracking."
+  },
+  {
+    "title": "Combination Sum",
+    "description": "Find combinations to target.",
+    "difficulty": "Medium",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Permutations",
+    "description": "Generate permutations.",
+    "difficulty": "Medium",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Subsets",
+    "description": "Generate all subsets.",
+    "difficulty": "Medium",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Kth Largest Element",
+    "description": "Find kth largest.",
+    "difficulty": "Medium",
+    "hint": "Heap or quickselect."
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "description": "Find top k frequent.",
+    "difficulty": "Medium",
+    "hint": "Heap/map."
+  },
+  {
+    "title": "Coin Change",
+    "description": "Minimum coins for amount.",
+    "difficulty": "Medium",
+    "hint": "Dynamic programming."
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "description": "Find LIS length.",
+    "difficulty": "Medium",
+    "hint": "DP/binary search."
+  },
+  {
+    "title": "Decode Ways",
+    "description": "Decode digit string.",
+    "difficulty": "Medium",
+    "hint": "DP."
+  },
+  {
+    "title": "House Robber",
+    "description": "Max non-adjacent sum.",
+    "difficulty": "Medium",
+    "hint": "DP."
+  },
+  {
+    "title": "Number of Islands",
+    "description": "Count islands in grid.",
+    "difficulty": "Medium",
+    "hint": "DFS/BFS."
+  },
+  {
+    "title": "Course Schedule",
+    "description": "Detect cycle in graph.",
+    "difficulty": "Medium",
+    "hint": "Topological sort."
+  },
+  {
+    "title": "Clone Graph",
+    "description": "Clone graph structure.",
+    "difficulty": "Medium",
+    "hint": "DFS with map."
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Level order traversal.",
+    "difficulty": "Medium",
+    "hint": "Use queue."
+  },
+  {
+    "title": "Validate BST",
+    "description": "Check BST validity.",
+    "difficulty": "Medium",
+    "hint": "Use bounds."
+  },
+  {
+    "title": "Lowest Common Ancestor",
+    "description": "Find LCA in tree.",
+    "difficulty": "Medium",
+    "hint": "Recursive search."
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "description": "Find longest path.",
+    "difficulty": "Medium",
+    "hint": "DFS depth."
+  },
+  {
+    "title": "Implement Trie",
+    "description": "Build prefix tree.",
+    "difficulty": "Medium",
+    "hint": "Use nodes with children."
+  },
+  {
+    "title": "Word Break",
+    "description": "Segment string.",
+    "difficulty": "Medium",
+    "hint": "DP + set."
+  },
+  {
+    "title": "Gas Station",
+    "description": "Find start index.",
+    "difficulty": "Medium",
+    "hint": "Greedy."
+  },
+  {
+    "title": "Task Scheduler",
+    "description": "Min intervals to schedule.",
+    "difficulty": "Medium",
+    "hint": "Greedy + heap."
+  },
+  {
+    "title": "Daily Temperatures",
+    "description": "Find warmer days.",
+    "difficulty": "Medium",
+    "hint": "Monotonic stack."
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "description": "Max in window.",
+    "difficulty": "Medium",
+    "hint": "Deque."
+  },
+  {
+    "title": "Minimum Path Sum",
+    "description": "Min path in grid.",
+    "difficulty": "Medium",
+    "hint": "DP."
+  },
+  {
+    "title": "Unique Paths",
+    "description": "Count paths in grid.",
+    "difficulty": "Medium",
+    "hint": "DP."
+  },
+  {
+    "title": "Search in Rotated Array",
+    "description": "Search rotated array.",
+    "difficulty": "Medium",
+    "hint": "Modified binary search."
+  },
+  {
+    "title": "Find Peak Element",
+    "description": "Find peak index.",
+    "difficulty": "Medium",
+    "hint": "Binary search."
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "description": "Find longest palindrome.",
+    "difficulty": "Medium",
+    "hint": "Expand around center."
+  },
+  {
+    "title": "String to Integer",
+    "description": "Implement atoi.",
+    "difficulty": "Medium",
+    "hint": "Handle edge cases."
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "description": "Find median of arrays.",
+    "difficulty": "Hard",
+    "hint": "Binary search partition."
+  },
+  {
+    "title": "Merge K Sorted Lists",
+    "description": "Merge linked lists.",
+    "difficulty": "Hard",
+    "hint": "Heap."
+  },
+  {
+    "title": "Trapping Rain Water",
+    "description": "Compute trapped water.",
+    "difficulty": "Hard",
+    "hint": "Two pointers/stack."
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "description": "Max rectangle area.",
+    "difficulty": "Hard",
+    "hint": "Monotonic stack."
+  },
+  {
+    "title": "Word Ladder",
+    "description": "Shortest transformation sequence.",
+    "difficulty": "Hard",
+    "hint": "BFS."
+  },
+  {
+    "title": "Minimum Window Substring",
+    "description": "Smallest covering substring.",
+    "difficulty": "Hard",
+    "hint": "Sliding window."
+  },
+  {
+    "title": "Edit Distance",
+    "description": "Min operations between strings.",
+    "difficulty": "Hard",
+    "hint": "DP."
+  },
+  {
+    "title": "Regular Expression Matching",
+    "description": "Pattern matching with regex.",
+    "difficulty": "Hard",
+    "hint": "DP."
+  },
+  {
+    "title": "Wildcard Matching",
+    "description": "Pattern with wildcards.",
+    "difficulty": "Hard",
+    "hint": "DP/greedy."
+  },
+  {
+    "title": "Serialize Deserialize Binary Tree",
+    "description": "Convert tree to string and back.",
+    "difficulty": "Hard",
+    "hint": "DFS/BFS."
+  },
+  {
+    "title": "N Queens",
+    "description": "Place queens safely.",
+    "difficulty": "Hard",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Sudoku Solver",
+    "description": "Solve Sudoku board.",
+    "difficulty": "Hard",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Burst Balloons",
+    "description": "Max coins.",
+    "difficulty": "Hard",
+    "hint": "DP interval."
+  },
+  {
+    "title": "Maximum Rectangle",
+    "description": "Largest rectangle in matrix.",
+    "difficulty": "Hard",
+    "hint": "Histogram method."
+  },
+  {
+    "title": "Distinct Subsequences",
+    "description": "Count subsequences.",
+    "difficulty": "Hard",
+    "hint": "DP."
+  },
+  {
+    "title": "Longest Valid Parentheses",
+    "description": "Longest valid substring.",
+    "difficulty": "Hard",
+    "hint": "Stack/DP."
+  },
+  {
+    "title": "Basic Calculator",
+    "description": "Evaluate expression.",
+    "difficulty": "Hard",
+    "hint": "Stack."
+  },
+  {
+    "title": "Sliding Window Median",
+    "description": "Median per window.",
+    "difficulty": "Hard",
+    "hint": "Two heaps."
+  },
+  {
+    "title": "Find Median from Data Stream",
+    "description": "Streaming median.",
+    "difficulty": "Hard",
+    "hint": "Two heaps."
+  },
+  {
+    "title": "LFU Cache",
+    "description": "Least frequently used cache.",
+    "difficulty": "Hard",
+    "hint": "HashMap + linked list."
+  },
+  {
+    "title": "Alien Dictionary",
+    "description": "Determine character order.",
+    "difficulty": "Hard",
+    "hint": "Topological sort."
+  },
+  {
+    "title": "Shortest Path in Graph",
+    "description": "Find shortest path.",
+    "difficulty": "Hard",
+    "hint": "Dijkstra."
+  },
+  {
+    "title": "Critical Connections",
+    "description": "Find bridges in graph.",
+    "difficulty": "Hard",
+    "hint": "Tarjan algorithm."
+  },
+  {
+    "title": "Network Delay Time",
+    "description": "Time for signal to reach all nodes.",
+    "difficulty": "Hard",
+    "hint": "Dijkstra."
+  },
+  {
+    "title": "Minimum Cost to Connect Points",
+    "description": "Connect points with min cost.",
+    "difficulty": "Hard",
+    "hint": "MST (Prim/Kruskal)."
+  },
+  {
+    "title": "Reconstruct Itinerary",
+    "description": "Find itinerary order.",
+    "difficulty": "Hard",
+    "hint": "DFS + priority queue."
+  },
+  {
+    "title": "Word Break II",
+    "description": "Return all sentences.",
+    "difficulty": "Hard",
+    "hint": "Backtracking + memo."
+  },
+  {
+    "title": "Expression Add Operators",
+    "description": "Add operators to reach target.",
+    "difficulty": "Hard",
+    "hint": "Backtracking."
+  },
+  {
+    "title": "Palindrome Partitioning II",
+    "description": "Min cuts for palindrome.",
+    "difficulty": "Hard",
+    "hint": "DP."
+  },
+  {
+    "title": "Max Profit with K Transactions",
+    "description": "Stock trading with k transactions.",
+    "difficulty": "Hard",
+    "hint": "DP."
+  }
+]

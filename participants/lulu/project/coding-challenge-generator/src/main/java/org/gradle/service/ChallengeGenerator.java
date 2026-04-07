@@ -5,13 +5,12 @@ import java.util.Random;
 import org.gradle.model.Challenge;
 
 public class ChallengeGenerator {
-    private Random random = new Random();
+  private final Random random = new Random();
 
-    public Challenge getRandomChallenge(List<Challenge> challenges) {
-        if (challenges.isEmpty()) {
-            return null;
-        }
-        int index = random.nextInt(challenges.size());
-        return challenges.get(index);
+  public Challenge getRandomChallenge(List<Challenge> challenges) {
+    if (challenges == null || challenges.isEmpty()) {
+      return null;
     }
+    return challenges.get(random.nextInt(challenges.size()));
+  }
 }
