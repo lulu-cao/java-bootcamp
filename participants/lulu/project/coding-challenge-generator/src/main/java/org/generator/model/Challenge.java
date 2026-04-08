@@ -1,4 +1,4 @@
-package org.gradle.model;
+package org.generator.model;
 
 public class Challenge {
   private String title;

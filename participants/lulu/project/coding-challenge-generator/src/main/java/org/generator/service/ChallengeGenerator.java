@@ -1,8 +1,8 @@
-package org.gradle.service;
+package org.generator.service;
 
 import java.util.List;
 import java.util.Random;
-import org.gradle.model.Challenge;
+import org.generator.model.Challenge;
 
 public class ChallengeGenerator {
   private final Random random = new Random();

@@ -3,6 +3,7 @@
 ### 1. Description
 
 Create a tool that generates random coding challenges for WCC members to practice.
+
 Skills: Core Java, Random class, Collections, String processing.
 
 ### 2. Features
@@ -19,13 +20,17 @@ Skills: Core Java, Random class, Collections, String processing.
 
 ### 4. How to Run
 
-To build the project,
+To build the project:
 
 ```
 ./gradlew build
 ```
 
-To run the project, click on the Run button on IntelliJ IDE.
+To run the project:
+
+```
+./gradlew run
+```
 
 ### 5. Resources
 
